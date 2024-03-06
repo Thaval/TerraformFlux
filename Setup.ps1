@@ -35,3 +35,5 @@ $content | ForEach-Object {
 }
 
 terraform apply -auto-approve -var="github_token=$($keyValuePairs["token"])"
+
+minikube dashboard
